@@ -1,0 +1,133 @@
+html, body {
+
+  background-image: url("img/butter.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  
+}
+
+
+/* navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #EFEFEF;
+  padding-left: 0px;
+  padding-right: 0px;
+  box-shadow: 0 0px 6px -6px #000000;
+  z-index: 1000;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #7c7c7c;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#navbar a:hover {
+  background-color: #DDDDDD;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #D40318;
+  color: white;
+}
+
+
+/* Video */
+
+.wrapper_vid{
+	color: #FFFFFF;
+	margin: 5%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	
+
+}
+
+.wrapper_vid a{
+	font-size: 150%;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.youtube{
+	border: 0;
+	width: 60vw;
+	height: 33.75vw;
+}
+
+/*Slideshow*/
+#galery {
+    width: 80vw;
+    height: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+  #galery img {
+    width: 0;
+    padding: 0;
+  }
+  #galery #img1, #galery #img5 {
+    width: 11.2vw;
+  }
+  #galery #img2, #galery #img4 {
+    width: 16.8vw;
+  }
+  #galery #img1 {
+    position: absolute;
+    left: 10.2666666666666666666vw;
+  }
+  #galery #img2 {
+    position: absolute;
+    left: 21.73333333333333333333333333vw;
+  }
+  #galery #img3 {
+    width: 22.4vw;
+    position: absolute;
+    left: 38.8vw;
+  }
+  #galery #img4 {
+    position: absolute;
+    left: 61.4666666666666666vw;
+  }
+  #galery #img5 {
+    position: absolute;
+    left: 78.533333333333333333333vw;
+  }
+  #galery button {
+    background: rgba(143, 150, 255, 0.5);
+    color: black;
+    padding: 40px 12px;
+    border-radius: 3px;
+    border-width: 0;
+    position: absolute;
+  }
+  #b1 {
+    left: 10.2vw;
+  }
+  #b2 {
+    right: 9.4333333333333333333333vw;
+  }
+
+  #title{
+    text-align: center;
+
+    margin-top: 5%;
+   }
